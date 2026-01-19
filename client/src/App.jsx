@@ -16,7 +16,7 @@ function App() {
             <h1>ShopSmart</h1>
             <div className="card">
                 <h2>Backend Status</h2>
-                {data ? (
+                {data ? (   
                     <div>
                         <p>Status: <span className="status-ok">{data.status}</span></p>
                         <p>Message: {data.message}</p>
